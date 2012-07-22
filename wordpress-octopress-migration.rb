@@ -5,7 +5,7 @@ require 'rexml/document'
 require 'net/http'
 include REXML
 
-CURRENT_IMG_HOST = "cameronstokes.com"
+CURRENT_IMG_HOST = "jaretmanuel.com"
 
 doc = Document.new File.new(ARGV[0])
 
